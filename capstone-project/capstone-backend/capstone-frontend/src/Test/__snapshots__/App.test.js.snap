@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-head"
+  >
+    <div>
+      <h1>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          GitHub API Interface:
+        </a>
+      </h1>
+    </div>
+  </div>
+  <div
+    className="App-api"
+  >
+    <div>
+      <div
+        className="App-api-container"
+      >
+        <div
+          className="App-api-search"
+        >
+          <h2>
+            Search:
+          </h2>
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              name="search"
+              onChange={[Function]}
+              placeholder="Username"
+              required={true}
+              type="text"
+              value=""
+            />
+            <button
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+          <div
+            className="App-api-searchView"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

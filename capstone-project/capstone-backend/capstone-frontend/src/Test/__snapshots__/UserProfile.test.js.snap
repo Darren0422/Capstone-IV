@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile component renders correctly 1`] = `
+<div>
+  <div
+    className="App-api-container"
+  >
+    <div
+      className="App-api-details"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Back To Search
+      </button>
+      <h2>
+        User Details:
+      </h2>
+      <div
+        className="App-api-UserDetails"
+      >
+        <div>
+          <p>
+            Loading user data...
+          </p>
+        </div>
+      </div>
+      <h2>
+        Repo Details:
+      </h2>
+      <div
+        className="App-api-RepoDetails"
+      >
+        <div>
+          <p>
+            Loading user data...
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

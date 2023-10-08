@@ -1,0 +1,162 @@
+/*
+Styling for entire app
+*/
+
+.App {
+  text-align: left;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: rgb(32, 35, 40);
+}
+
+/*
+Styling for head component
+*/
+
+.App-head {
+  text-align: center;
+  background-color: rgb(246, 248, 250);
+  color: rgb(32, 35, 40);
+}
+
+.App-head a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*
+Styling for api component
+*/
+.App-api-container {
+  padding-top: 20px;
+}
+
+.App-api-search {
+  text-align: center;
+  color: rgb(32, 35, 40);
+}
+
+.App-api-search input {
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 5px;
+  width: 200px;
+}
+
+.App-api-search button {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(66, 134, 70);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transition for smooth color change */
+}
+
+.App-api-search button:hover {
+  background-color: rgb(239, 134, 50);
+  color: black;
+}
+
+/*
+Styling for api component search results
+*/
+
+.App-api-searchres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-table {
+  text-align: center;
+  width: 450px;
+  padding: 20px;
+  border: 1px solid rgb(209, 215, 221); /* Set the border color */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.user-table img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.user-table button {
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(46, 103, 211);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transition for smooth color change */
+}
+
+.user-table button:hover {
+  background-color: rgb(66, 134, 70);
+  color: white;
+}
+
+/*
+Styling for userprofile component
+*/
+
+.App-api-details {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: rgb(102, 109, 117);
+}
+
+.App-api-details button {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(66, 134, 70);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transition for smooth color change */
+}
+
+.App-api-details button:hover {
+  background-color: rgb(239, 134, 50);
+  color: black;
+}
+
+.App-api-details span {
+  color: rgb(32, 35, 40);
+}
+
+.App-api-details h2 {
+  text-align: left;
+  color: rgb(32, 35, 40);
+}
+
+.App-api-details a {
+  color: rgb(46, 103, 211);
+}
+
+.App-api-UserDetails {
+  border: 1px solid rgb(209, 215, 221); /* Set the border color */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.App-api-UserDetails img {
+  width: 300px;
+  height: 300px;
+}
+
+.App-api-RepoDetails {
+  text-align: left;
+  border: 1px solid rgb(209, 215, 221); /* Set the border color */
+  border-radius: 3px;
+}
